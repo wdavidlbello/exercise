@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 #cabecera {
@@ -14,7 +14,7 @@
 #cabecera > div {
     width: 960px;
     height: 150px;
-    margin: 20px auto;
+    margin: 0px auto;
 }
 
 #cabecera h1 {
@@ -22,9 +22,11 @@
     color: aliceblue;
 }
 
+/*FIN DEL HEADER*/
+/*-----------------------------*/
 #menudenav {
     width: 96%;
-    height: 30px;
+    height: 40px;
     
 
     background-color: #acc9dd;
@@ -42,6 +44,7 @@
     margin: 0px auto;
     padding: 5px 20px 0px 0px;
 
+    font:30px Verdana;
     list-style: none;
 
 }
