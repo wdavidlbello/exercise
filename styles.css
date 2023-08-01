@@ -65,13 +65,20 @@
     display: relative;
     float: left;
     width: 40%;
+    margin: 10px 5px 10px 175px;
 
     border-radius: 20px;
+
+
+    background-color: #ffffff;
 }
 
 #primeraseccion figure {
     float: left;
-    width: 20px;
+    width: 40px;
+    margin: 10px;
+    
+
 }
 
 #primeraseccion p {
@@ -83,4 +90,6 @@
 #primeraside {
     float: right;
     width: 30%;
+
+    background-color: #ffffff;
 }
