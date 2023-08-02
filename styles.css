@@ -6,7 +6,7 @@
 #cabecera {
     width: 96%;
     height: 150px;
-    padding: 2% 0%;
+    padding: 2% 2%;
 
     background-color: #2c89cc;
 }
@@ -20,6 +20,7 @@
 #cabecera h1 {
     font: 50px bold Verdana,sans-serif;
     color: aliceblue;
+    text-align: left;
 }
 
 /*
@@ -30,7 +31,7 @@ FIN DEL HEADER
 #menudenav {
     width: 96%;
     height: 30px;
-    
+    padding: 0px 30px;
 
     background-color: #acc9dd;
     border: 1px solid #000000;
@@ -84,20 +85,19 @@ FIN DEL MENU
 }
 
 #primeraseccion figure {
-    float: left;
-    width: 40px;
-    margin: 10px;
+    display: block;
+    float: right;
+    width: 200px;
+    margin: 5px;
     
 
 }
 
 #primeraseccion p {
+    display: block;
     float: left;
-}
-#fecha {
-    display: absolute;
-    top: -20px;
-    left: -50px;
+    width: 280px;
+    margin: 5px;
 }
 
 
@@ -117,21 +117,23 @@ FIN DEL MENU
 
 .footerelement {
     float: left;
-    margin: 20px auto;
-    padding: 10%;
+    margin: 5px 50px;
+    padding: 3%;
 
 }
 
 footer {
     width: 96%;
-
+    height: 300px;
+    padding: 3%;
     background-color: #2c89cc;
 }
 
-footer div {
-    width: 900px;
-    height: 200px;
-    margin: 20px auto;
+footer > div {
+    width: 960px;
+    height: 100px;
+    margin: 30px auto 0px;
+    padding: 3% ;
     background-color: #acc9dd;
     border-radius: 10px;
 }
