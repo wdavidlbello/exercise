@@ -12,7 +12,7 @@
 </time>
 ```
 
-## Estructura de un pagina web
+## Estructura de un página web
 
 * __El head__: Con sus elementos title, meta y link para los archivos externos.
 * __El body__
